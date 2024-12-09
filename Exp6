@@ -1,0 +1,21 @@
+git  merge f1
+git diff main f1
+
+docker build -t <image name>
+docker run -name <containername> <image name>
+FROM openjdk
+WORKDIR /app
+COPY . /app
+RUN javac sample.java
+CMD ["java","sample"]
+
+docker login rakshitha1
+Vvce@1234
+docker images
+docker tag <imageid> <dockerusername>/<image name>
+docker push docker.io/<dockerusername>/<image name>
+
+
+
+
+
